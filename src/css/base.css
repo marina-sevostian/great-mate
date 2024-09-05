@@ -1,3 +1,10 @@
+@font-face {
+  font-family: 'Gilroy';
+  src: url('https://drive.google.com/file/d/1urnx-jXxAhTe67KfqeVujR40eQbOYsUd/view?usp=drive_link');
+  font-weight: 500;
+  font-style: normal;
+}
+
 body {
   font-family: 'Gilroy', sans-serif;
   color: rgba(12, 12, 12, 0.7);
