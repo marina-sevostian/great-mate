@@ -1,0 +1,108 @@
+.page-about-us {
+  margin-bottom: 60px;
+}
+
+.page-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.about-us-wrap {
+  background-color: #f3f3f3;
+  border-radius: 30px;
+  padding: 40px 20px;
+}
+
+.title-page-about-us {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: #0c0c0c;
+  margin-bottom: 28px;
+}
+
+.text-about-us {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  margin-bottom: 20px;
+}
+
+.button-about-us {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  text-align: center;
+  color: #fbfbfb;
+  background-color: #3350e9;
+  padding: 15px 38px;
+  border-radius: 16px;
+  border: 0;
+  margin-top: 20px;
+}
+
+.button-about-us:hover,
+.button-about-us:focus {
+  background-color: #1f3cd4;
+}
+
+.about-us-pic-wrap {
+  border-radius: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .page-about-us {
+    margin-bottom: 80px;
+  }
+
+  .page-container {
+    gap: 40px;
+  }
+
+  .about-us-wrap {
+    padding: 80px 60px;
+    border-radius: 50px;
+  }
+
+  .title-page-about-us {
+    font-size: 48px;
+    line-height: 0.92;
+    margin-bottom: 40px;
+  }
+
+  .text-about-us {
+    font-size: 16px;
+    line-height: 1.25;
+  }
+
+  .button-about-us {
+    margin-top: 40px;
+  }
+
+  .about-us-pic-wrap {
+    border-radius: 50px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .page-about-us {
+    margin-bottom: 100px;
+  }
+
+  .page-container {
+    flex-direction: row;
+  }
+
+  .about-us-wrap {
+    max-width: 580px;
+  }
+
+  .button-about-us {
+    margin-top: 20px;
+  }
+}
