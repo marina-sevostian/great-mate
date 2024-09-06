@@ -107,7 +107,7 @@
 @media screen and (min-width: 1280px) {
   .container.adv_container {
     height: 298px;
-    margin: 100px 65px;
+    margin: 100px auto;
     padding: 83px 80px;
     display: flex;
     align-items: center;
@@ -132,7 +132,7 @@
   .adv_text {
     text-align: left;
     font-size: 48px;
-    line-height: 0.92;
+    line-height: 0.91;
     width: 690px;
   }
   .adv_link_box {
