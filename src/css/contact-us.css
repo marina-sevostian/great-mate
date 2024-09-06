@@ -1,44 +1,44 @@
 .contact-us {
-    padding-bottom: 100px;
+    padding-bottom: 60px;
 }
 
 .container-contact {
-    min-width: 1280px;
+    max-width: 375px;
 }
 
 .title-contact {
     font-family: "Gilroy", sans-serif;
     font-weight: 600;
-    font-size: 48px;
-    line-height: 0.97;
+    font-size: 32px;
+    line-height: 1;
     letter-spacing: -0.02em;
     color: #0c0c0c;
-    margin-bottom: 40px;
+    margin-bottom: 24px;
 }
 
 .info-contact-us {
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
-    flex-direction: row;
-    gap: 40px;
+    flex-direction: column;
+    gap: 20px;
 }
 
 .form-contact {
-    border-radius: 50px;
-    width: 580px;
-    height: 556px;
+    border-radius: 30px;
+    padding: 48px 28px;
     background-color: #f3f3f3;
-    padding: 50px 60px;
 }
 
 .text-contact {
+    font-family: "Gilroy", sans-serif;
     font-weight: 500;
-    font-size: 16px;
-    line-height: 1.25;
+    font-size: 14px;
+    line-height: 1.28;
     letter-spacing: -0.02em;
     color: rgba(12, 12, 12, 0.7);
-    margin-bottom: 32px;
+    margin-bottom: 28px;
+
 }
 
 .contact-form-input {
@@ -47,50 +47,44 @@
     justify-content: flex-start;
     flex-direction: column;
     gap: 18px;
-    width: 460px;
-    min-height: 300px;
+    margin-bottom: 28px;
+
 }
 
 .contact-input::placeholder {
     font-family: "Gilroy", sans-serif;
     font-weight: 400;
-    font-size: 16px;
-    line-height: 1.25;
+    font-size: 14px;
+    line-height: 1.29;
     color: #0c0c0c;
 }
 
 .contact-input {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
-    gap: 18px;
     border: 1px solid rgba(12, 12, 12, 0.15);
-    background-color: transparent;
     border-radius: 12px;
-    padding: 16px;
-    width: 460px;
-    height: 52px;
-}
-
-.input-name {
-    padding: 16px 18px;
+    padding: 14px;
+    width: 279px;
+    height: 42px;
+    padding: 12px 14px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.28;
+    color: #0c0c0c;
+    background-color: transparent;
 }
 
 .user-comment {
-    resize: none;
-    padding: 16px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
-    gap: 18px;
     border: 1px solid rgba(12, 12, 12, 0.15);
     border-radius: 12px;
-    padding: 16px;
-    margin-bottom: 32px;
-    width: 460px;
-    min-height: 90px;
+    padding: 12px 14px;
+    width: 279px;
+    min-height: 84px;
+    resize: none;
+    padding: 12px 14px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.28;
+    color: #0c0c0c;
     background-color: transparent;
 }
 
@@ -103,23 +97,23 @@
 }
 
 .button-contact {
-    font-family: "Gilroy", sans-serif;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.28;
-    text-align: center;
-    color: #fbfbfb;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: row;
     gap: 10px;
     border-radius: 16px;
-    padding: 17px 63px;
-    width: 160px;
-    height: 52px;
+    padding: 12px 50px;
+    width: 134px;
+    height: 42px;
     background-color: #3350e9;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.29;
+    text-align: center;
+    color: #fbfbfb;
     border: none;
+
 }
 
 .button-contact:hover,
@@ -128,7 +122,145 @@
 }
 
 .card-contact-us {
-    border-radius: 50px;
-    width: 530px;
-    height: 556px;
+    border-radius: 30px;
+    width: 335px;
+    height: 512px;
+
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 768px;
+        padding: 0 32px;
+    }
+
+    .contact-us {
+        padding-bottom: 80px;
+    }
+
+    .title-contact {
+        font-size: 48px;
+        line-height: 0.97;
+        margin-bottom: 40px;
+    }
+
+    .info-contact-us {
+        gap: 40px;
+    }
+
+    .form-contact {
+        padding: 50px 122px;
+    }
+
+    .text-contact {
+        font-size: 16px;
+        line-height: 1.25;
+    }
+
+    .contact-form-input {
+        margin-bottom: 32px;
+    }
+
+    .contact-input::placeholder {
+        font-size: 16px;
+        line-height: 1.25;
+    }
+
+    .contact-input {
+        padding: 16px;
+        width: 460px;
+        height: 52px;
+    }
+
+    .input-name {
+        padding: 16px 18px;
+    }
+
+    .user-comment {
+        padding: 16px;
+        width: 460px;
+        min-height: 90px;
+    }
+
+    .button-contact {
+        padding: 17px 63px;
+        width: 160px;
+        height: 52px;
+    }
+
+    .card-contact-us {
+        border-radius: 50px;
+        width: 704px;
+        height: 556px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .container {
+        max-width: 1280px;
+        padding: 0 65px;
+    }
+
+    .contact-us {
+        padding-bottom: 100px;
+    }
+
+
+    .title-contact {
+        font-size: 48px;
+        line-height: 0.97;
+    }
+
+    .info-contact-us {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+
+    .form-contact {
+        width: 335px;
+        min-height: 512px;
+        border-radius: 50px;
+        width: 580px;
+        height: 556px;
+        padding: 50px 60px;
+    }
+
+    .text-contact {
+        margin-bottom: 32px;
+    }
+
+    .contact-form-input {
+        width: 460px;
+        min-height: 300px;
+    }
+
+    .contact-input {
+        padding: 16px;
+        width: 460px;
+        height: 52px;
+        outline: transparent;
+        transition: background-color 300ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .user-comment {
+        padding: 16px;
+        width: 460px;
+        min-height: 90px;
+        background-color: transparent;
+        transition: background-color 300ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+
+    .button-contact {
+        padding: 17px 63px;
+        width: 160px;
+        height: 52px;
+        transition: background-color 300ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .card-contact-us {
+        width: 530px;
+        height: 556px;
+    }
 }
