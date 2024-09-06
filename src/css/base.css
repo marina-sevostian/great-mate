@@ -11,15 +11,12 @@ body {
   background-color: #fbfbfb;
 }
 
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
+input {
+  font-family: inherit;
 }
 
 button {
   font-family: 'Gilroy', sans-serif;
-  cursor: pointer;
 }
 
 .visually-hidden {
