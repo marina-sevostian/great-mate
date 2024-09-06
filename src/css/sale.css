@@ -1,7 +1,4 @@
-.sale {
-  padding-right: 20px;
-  padding-left: 20px;
-}
+
 .container-sale {
   display: flex;
   flex-direction: column;
@@ -15,7 +12,9 @@
   color: #0c0c0c;
   text-align: left;
 }
-
+.sale-small-produkt {
+    margin-bottom: 20px;
+}
 .sale-list {
   display: flex;
   gap: 5px;
@@ -32,12 +31,13 @@
 .sale-big-produkt {
   border: 1px solid rgba(12, 12, 12, 0.05);
   border-radius: 30px;
-  width: auto;
-  height: 385px;
+  max-width: 335px;
+  min-height: 385px;
   background-color: #f3f3f3;
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom: 20px;
 }
 
 .sale-small-img {
@@ -54,9 +54,10 @@
 .sale-description {
   background-color: #3350e9;
   border-radius: 30px;
-  width: auto;
-  height: auto;
+  max-width: 335px;
+  min-height: 561px;
   padding: 48px 28px;
+  margin-bottom: 60px;
 }
 
 .sale-description-title {
@@ -127,4 +128,97 @@
   width: auto;
   height: 32px;
   padding: 8px;
+}
+
+@media screen and (min-width: 768px) {
+ 
+.sale-title {
+font-size: 48px;
+line-height: 92%;
+letter-spacing: -0.02em;
+ }
+.sale-box-watch {
+ display: flex;
+ gap: 20px;
+}
+.sale-list {
+  display: block;
+margin-right: 10px;
+}
+.sale-item {
+border-radius: 20px;
+width: 132px;
+height: 132px;
+margin-bottom: 10px;
+}
+.sale-small-img {
+  width: 96px;
+height: 100px;
+  margin: 16px 18px;
+}
+.sale-big-produkt {
+  min-width: 552px;
+  min-height: 558px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sale-big-img {
+ width: 328px;
+height: 398px;
+margin: 80px 112px;
+}
+
+.sale-description {
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-bottom: 80px;
+        max-width: 704px;
+    min-height: 518px;
+}
+.sale-description-title {
+padding-right: 208px;
+font-size: 32px;
+line-height: 112%;
+}
+
+.sale-price {
+font-size: 20px;
+line-height: 100%;
+}
+
+.sale-type-list  {
+font-size: 14px;
+line-height: 129%;
+
+}
+.sale-about-watch {
+font-size: 16px;
+line-height: 125%;
+}
+.sale-type-list {
+    gap: 8px;
+    padding-right: 246px;
+}
+}
+@media screen and (min-width: 1280px) {
+
+.sale-box-desktop {
+  display: flex;
+}
+.sale-list {
+    margin: 16px 18px;
+}
+.sale-big-produkt {
+  width: 428px;
+  height: 558px;
+  margin-right: 40px;
+}
+.sale-big-img {
+margin: 80px 50px;
+}
+.sale-description {
+   width: 530px;
+height: 558px;
+}
 }
