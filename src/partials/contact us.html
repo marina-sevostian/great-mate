@@ -1,0 +1,79 @@
+<section class="contact-us">
+  <div class="container container-contact">
+    <h2 class="title-contact">Contact Us</h2>
+    <div class="form-contact">
+      <p class="text-contact">
+        Please use the form below to contact us. Enter your name, email, phone,
+        and message and we'll get back to you shortly.
+      </p>
+      <form class="contact-form-input">
+        <label class="contact-label" for="user-name">
+          <input
+            class="contact-input"
+            type="text"
+            name="user-name"
+            id="user-name"
+            placeholder="Name"
+            required
+          />
+        </label>
+        <label class="contact-label" for="user-email">
+          <input
+            class="contact-input"
+            type="email"
+            name="email"
+            id="user-email"
+            placeholder="Email"
+            pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+            required
+          />
+        </label>
+        <label class="contact-label" for="user-tel">
+          <input
+            class="contact-input"
+            type="tel"
+            name="user-tel"
+            id="user-tel"
+            placeholder="+380"
+            pattern="^\+\d{3}-\d{2}-\d{3}-\d{2}-\d{2}$"
+            required
+          />
+        </label>
+        <label class="contact-label" for="user-comment">
+          <textarea
+            class="user-comment"
+            name="user-comment"
+            id="user-comment"
+            placeholder="Comment"
+          ></textarea>
+        </label>
+        <button class="button-contact" type="submit">Send</button>
+      </form>
+    </div>
+    <div>
+      <picture>
+        <source
+          srcset="
+            ./img/contact-us/contact-us-pc-1x.jpg 1x,
+            ./img/contact-us/contact-us-pc-2x.jpg 2x
+          "
+          media="(min-width: 1280px)"
+        />
+        <source
+          srcset="./img/contact us/contact-us-pic-tab-1x.jpg 1x, ./img/contact us/contact-us-pic-tab-2x.jpg 2x"
+          media="(min-width: 768px)"
+        />
+        <source
+          srcset="./img/contact us/contact-us-pic-mob-1x.jpg 1x, ./img/contact us/contact-us-pic-mob-2x.jpg 2x"
+          media="(max-width: 767px)"
+        />
+        <img
+          class="card-contact-us"
+          src="../img/contact us/contact-us-pc-1x.jpg"
+          alt="watch on hand"
+          width="704"
+        />
+      </picture>
+    </div>
+  </div>
+</section>
