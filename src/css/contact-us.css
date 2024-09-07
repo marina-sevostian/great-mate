@@ -36,8 +36,6 @@
     letter-spacing: -0.02em;
     color: rgba(12, 12, 12, 0.7);
     margin-bottom: 28px;
-    padding-right: 3px;
-
 }
 
 .contact-form-input {
@@ -97,6 +95,7 @@
 .contact-input:focus {
     background-color: transparent;
 }
+
 
 .button-contact {
     display: flex;
