@@ -7,7 +7,6 @@
 }
 
 .title-contact {
-    font-family: "Gilroy", sans-serif;
     font-weight: 600;
     font-size: 32px;
     line-height: 1;
@@ -31,7 +30,6 @@
 }
 
 .text-contact {
-    font-family: "Gilroy", sans-serif;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.28;
@@ -53,7 +51,6 @@
 }
 
 .contact-input::placeholder {
-    font-family: "Gilroy", sans-serif;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.29;
@@ -160,6 +157,7 @@
     .text-contact {
         font-size: 16px;
         line-height: 1.25;
+        padding-right: 0px
     }
 
     .contact-form-input {
