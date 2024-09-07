@@ -1,6 +1,9 @@
 @font-face {
   font-family: 'Gilroy';
-  src: url('https://drive.google.com/file/d/1urnx-jXxAhTe67KfqeVujR40eQbOYsUd/view?usp=drive_link');
+  src: url('../fonts/Gilroy-Bold.woff2');
+  src: url('../fonts/Gilroy-Medium.woff2');
+  src: url('../fonts/Gilroy-Regular.woff2');
+  src: url('../fonts/Gilroy-Semibold.woff2');
   font-weight: 500;
   font-style: normal;
 }
