@@ -17,6 +17,12 @@ nav {
   align-items: center;
   width: 100%;
 }
+.nav-list {
+  position: absolute;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
 .mobile-header {
   display: flex;
   align-items: center;
@@ -83,6 +89,12 @@ nav {
 .nav-link.current {
   color: #404bbf;
 }
+.header-social {
+  position: absolute;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
 
 /* Mobile menu window */
 
@@ -109,7 +121,7 @@ nav {
 }
 .mobile-modal {
   display: flex;
-  flex-direction: column;  
+  flex-direction: column;
   align-items: center;
   position: absolute;
   width: 200px;
@@ -121,12 +133,7 @@ nav {
   background-size: cover;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-/* .mobile-modal-box {
-  display: flex;
-  flex-direction: column;  
-  align-items: center;
-} */
-.mobile-nav-list {  
+.mobile-nav-list {
   position: fixed;
   top: 25%;
   display: flex;
@@ -167,7 +174,7 @@ nav {
   outline: none;
   stroke: #fbfbfb;
 }
-.header-social {
+.mobile-header-social {
   position: fixed;
   bottom: 40px;
 }
@@ -175,4 +182,77 @@ nav {
   outline: none;
   stroke: #fbfbfb;
   fill: #fbfbfb;
+}
+
+@media screen and (min-width: 768px) {
+  .header {
+    height: 92px;
+  }
+  .header-box {
+    width: 768px;
+  }
+  .logo {
+    font-size: 20px;
+  }
+  .menu-button {
+    height: 40px;
+    width: 40px;
+  }
+  .mobile-modal {
+    width: 330px;
+    background-image: url(/img/menu/mob-menu-bg-tab-1x.jpg);
+  }
+  .button-close {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .header {
+    height: 88px;
+  }
+  .header-box {
+    width: 1280px;
+  }
+  .menu-button {
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+  }
+  .nav-list {
+    display: flex;
+    gap: 40px;
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+    position: static;
+  }
+  .header-social {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+    position: static;
+  }
+  .header-social {
+    width: auto;
+    gap: 10px;
+  }
+  .header-social-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(12, 12, 12, 0.1);
+    border-radius: 10px;
+    width: 36px;
+    height: 36px;
+  }
+  .header-social-link-icon {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+    position: static;
+    fill: #0c0c0c;
+  }
 }
