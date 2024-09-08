@@ -1,8 +1,7 @@
-.container.container-sale {
-  padding-top: 60px;
-  padding-bottom: 60px;
-}
 
+.sale {
+ padding: 60px 0;
+}
 .sale-title {
   font-weight: 600;
   font-size: 32px;
@@ -10,7 +9,7 @@
   letter-spacing: -0.02em;
   color: #0c0c0c;
   text-align: left;
-  margin-bottom: 24px;
+  padding-bottom: 24px;
 }
 .sale-small-produkt {
   margin-bottom: 20px;
@@ -31,7 +30,8 @@
   gap: 20px;
 }
 .sale-box-watch {
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
+  padding-bottom: 20px;
 }
 .sale-big-produkt {
   border: 1px solid rgba(12, 12, 12, 0.05);
@@ -132,21 +132,20 @@
 }
 
 @media screen and (min-width: 768px) {
-.container.container-sale {
-  padding-top:80px;
-  padding-bottom: 80px;
-}
- 
+
+ .sale {
+  padding: 80px 0;
+ }
   .sale-title {
     font-size: 48px;
     line-height: 0.92;
     letter-spacing: -0.02em;
-    margin-bottom: 40px;
+    /* margin-bottom: 40px; */
+    padding-bottom: 40px;
   }
   .sale-box-watch {
     display: flex;
     gap: 20px;
-    margin-bottom: 40px;
   }
   .sale-list {
     display: block;
@@ -165,6 +164,7 @@
   }
   .sale-small-img {
     margin: 16px 18px;
+    padding: 0;
   }
   .sale-big-produkt {
     max-width: 552px;
@@ -210,11 +210,10 @@
 }
 
 @media screen and (min-width: 1280px) {
-  .container.container-sale {
-  padding-top: 100px;
-  padding-bottom: 100px;
-}
 
+.sale {
+  padding: 100px 0;
+}
 
   .sale-box-desktop {
     display: flex;
@@ -243,9 +242,7 @@
   .sale-type-list {
     font-size: 14px;
   }
-  .sale-tag {
-    margin-top: 10px;
-  }
+
   .sale-description {
     height: 558px;
   }
