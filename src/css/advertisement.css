@@ -1,6 +1,3 @@
-.advertisement {
-  padding-bottom: 60px;
-}
 .container.adv_container {
   height: 363px;
   width: 335px;
@@ -71,9 +68,6 @@
 }
 
 @media screen and (min-width: 768px) {
-  .advertisement {
-    padding-bottom: 80px;
-  }
   .container.adv_container {
     height: 425px;
     min-width: 768px;
@@ -110,9 +104,6 @@
   }
 }
 @media screen and (min-width: 1280px) {
-  .advertisement {
-    padding-bottom: 100px;
-  }
   .container.adv_container {
     height: 298px;
     width: 1150px;
