@@ -28,7 +28,7 @@
   align-items: center;
   justify-content: flex-start;
   flex-direction: column;
-  gap: 8px;
+  gap: 24px;
   border-radius: 30px;
   padding: 32px 36px;
   background: #f3f3f3;
@@ -39,14 +39,6 @@
 }
 .reviews-item-three {
   display: none;
-}
-
-.reviews-list-item {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  flex-direction: column;
-  gap: 24px;
 }
 .reviews-list-img {
   border-radius: 100%;
