@@ -54,9 +54,9 @@
   font-style: normal;
   border: 1px solid rgba(251, 251, 251, 0.2);
   border-radius: 16px;
-  width: 162px;
+  width: 160px;
   height: 48px;
-  padding: 15px;
+  padding: 14px;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.28;
@@ -150,6 +150,9 @@
 }
 
 @media screen and (min-width: 320px) and (max-width: 375px) {
+  .footer {
+    margin: 0 20px 20px;
+  }
   .nav-list-footer {
     min-width: 100%;
   }
