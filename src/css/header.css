@@ -101,7 +101,7 @@ nav {
   transition: opacity 300ms cubic-bezier(0.4, 0, 0.2, 1),
     visibility 300ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.mobile-modal-overlay.is-open {
+.is-open {
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
@@ -120,20 +120,20 @@ nav {
   background-size: cover;
   transition: transform 300ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.mobile-nav-list {
-  position: fixed;
-  top: 33%;
+.mobile-nav-list {  
+  margin-top: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 24px;
+  margin-bottom: auto;
 }
 .mobile-nav-link {
   font-family: 'Gilroy', sans-serif;
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.28571;
+  line-height: 1.29;
   text-align: center;
   color: #fbfbfb;
 }
@@ -162,8 +162,7 @@ nav {
   stroke: #fbfbfb;
 }
 .mobile-header-social {
-  position: fixed;
-  bottom: 40px;
+  margin-bottom: 40px;
 }
 .menu-social-link-icon {
   outline: none;
