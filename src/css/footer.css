@@ -1,6 +1,9 @@
 .footer {
-  padding: 40px 28px 28px;
   margin: 0 auto 20px;
+}
+
+.container-footer {
+  padding: 40px 28px 28px;
   background: #0c0c0c;
   border-radius: 30px;
   max-width: 335px;
@@ -153,6 +156,9 @@
   .footer {
     margin: 0 20px 20px;
   }
+  .container-footer {
+    width: 100%;
+  }
   .nav-list-footer {
     min-width: 100%;
   }
@@ -161,6 +167,9 @@
 @media screen and (min-width: 768px) {
   .footer {
     margin: 0 auto 32px;
+  }
+
+  .container-footer {
     max-width: 704px;
   }
 
@@ -170,7 +179,6 @@
     justify-content: space-between;
     margin-bottom: 100px;
   }
-
   .social-footer {
     margin-bottom: 0;
   }
@@ -234,7 +242,7 @@
 }
 
 @media screen and (min-width: 1280px) {
-  .footer {
+  .container-footer {
     max-width: 1216px;
   }
 
