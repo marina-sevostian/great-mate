@@ -1,4 +1,5 @@
-.container.adv_container {
+.adv_box {
+  width: 100%;
   padding: 60px 28px;
   margin: 0 auto;
   border-radius: 30px;
@@ -10,7 +11,7 @@
     ),
     url(/img/advertisement/adv-img-mob-1x.jpg);
   background-size: cover;
-  background-position: center;
+  background-position: center center;
   background-repeat: no-repeat;
 }
 @media screen and (-webkit-min-device-pixel-ratio: 2),
