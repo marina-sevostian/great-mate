@@ -45,7 +45,6 @@
     justify-content: flex-start;
     flex-direction: column;
     gap: 18px;
-    margin-bottom: 28px;
 
 }
 
@@ -68,6 +67,7 @@
     line-height: 1.28;
     color: #0c0c0c;
     background-color: transparent;
+    outline: transparent;
 }
 
 .user-comment {
@@ -83,6 +83,7 @@
     line-height: 1.28;
     color: #0c0c0c;
     background-color: transparent;
+    outline: transparent;
 }
 
 .contact-input:hover {
@@ -115,7 +116,7 @@
     text-align: center;
     color: #fbfbfb;
     border: none;
-
+    margin-top: 10px;
 }
 
 .button-contact:hover,
@@ -168,12 +169,10 @@
     .text-contact {
         font-size: 16px;
         line-height: 1.25;
-        padding-right: 0px
-    }
-
-    .contact-form-input {
+        padding-right: 0px;
         margin-bottom: 32px;
     }
+
 
     .contact-input::placeholder {
         font-size: 16px;
@@ -200,6 +199,7 @@
         padding: 17px 63px;
         width: 160px;
         height: 52px;
+        margin-top: 14px;
     }
 
     .card-contact-us {
