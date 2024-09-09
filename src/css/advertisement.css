@@ -17,7 +17,7 @@
 @media screen and (-webkit-min-device-pixel-ratio: 2),
   (min-resolution: 2dppx),
   (min-resolution: 192dpi) {
-  .container.adv_container {
+  .adv_box {
     background-image: linear-gradient(
         rgba(12, 12, 12, 0.8),
         rgba(12, 12, 12, 0.8)
@@ -67,14 +67,14 @@
   color: #0c0c0c;
 }
 @media screen and (min-width: 320px) and (max-width: 375px) {
-  .container.adv_container {
+  .adv_box {
     width: 100%;
     height: auto;
     margin: 0 auto;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1280px) {
-  .container.adv_container {
+  .adv_box {
     height: 425px;
     width: 768px;
     margin: 0 auto;
@@ -91,7 +91,7 @@
   @media screen and (-webkit-min-device-pixel-ratio: 2),
     (min-resolution: 2dppx),
     (min-resolution: 192dpi) {
-    .container.adv_container {
+    .adv_box {
       background-image: linear-gradient(
           rgba(12, 12, 12, 0.8),
           rgba(12, 12, 12, 0.8)
@@ -111,7 +111,7 @@
   }
 }
 @media screen and (min-width: 1280px) {
-  .container.adv_container {
+  .adv_box {
     height: 298px;
     width: 1150px;
     margin: 0 auto;
@@ -129,7 +129,7 @@
   @media screen and (-webkit-min-device-pixel-ratio: 2),
     (min-resolution: 2dppx),
     (min-resolution: 192dpi) {
-    .container.adv_container {
+    .adv_box {
       background-image: linear-gradient(
           rgba(12, 12, 12, 0.8),
           rgba(12, 12, 12, 0.8)
