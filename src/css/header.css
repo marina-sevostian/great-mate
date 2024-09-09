@@ -10,7 +10,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 375px;
+  width: 100%;
 }
 nav {
   display: flex;
@@ -196,9 +196,6 @@ nav {
 @media screen and (min-width: 768px) {
   .header {
     height: 92px;
-  }
-  .header-box {
-    width: 768px;
   }
   .logo {
     font-size: 20px;
