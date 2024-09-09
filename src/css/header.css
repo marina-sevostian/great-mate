@@ -10,7 +10,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 375px;
+  width: 100%;
 }
 nav {
   display: flex;
@@ -41,7 +41,6 @@ nav {
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
-  padding: 16px 0;
 }
 .menu-icon {
   stroke: #0c0c0c;
@@ -49,16 +48,15 @@ nav {
 .tab-menu-icon {
   position: absolute;
   opacity: 0;
-  visibility: hidden;
+  display: none;
   pointer-events: none;
 }
 .nav-list {
-  display: flex;
+  display: none;
   align-items: center;
   gap: 40px;
   position: absolute;
   opacity: 0;
-  visibility: hidden;
   pointer-events: none;
 }
 .nav-item {
@@ -199,9 +197,6 @@ nav {
   .header {
     height: 92px;
   }
-  .header-box {
-    width: 768px;
-  }
   .logo {
     font-size: 20px;
   }
@@ -224,7 +219,9 @@ nav {
   }
   .tab-menu-icon {
     opacity: 1;
-    visibility: visible;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     pointer-events: auto;
     position: static;
   }
@@ -264,7 +261,6 @@ nav {
     display: flex;
     gap: 40px;
     opacity: 1;
-    visibility: visible;
     pointer-events: auto;
     position: static;
   }
