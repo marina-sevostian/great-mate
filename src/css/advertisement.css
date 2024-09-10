@@ -68,13 +68,11 @@
 @media screen and (min-width: 320px) and (max-width: 375px) {
   .adv_box {
     width: 100%;
-    height: auto;
     margin: 0 auto;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1280px) {
   .adv_box {
-    height: 425px;
     margin: 0 auto;
     padding: 80px 64px;
     border-radius: 30px;
@@ -109,7 +107,6 @@
 }
 @media screen and (min-width: 1280px) {
   .adv_box {
-    height: 298px;
     width: 1150px;
     margin: 0 auto;
     box-sizing: border-box;
