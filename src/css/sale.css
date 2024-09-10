@@ -23,20 +23,23 @@
   border: 1px solid #0c0c0c0d;
   border-radius: 16px;
   width: 80px;
-  height: 80px;
+
+  /* height: 80px; */
+  height: auto;
+
   background-color: #f3f3f3;
 }
 .sale-box-desktop {
   gap: 20px;
 }
-.sale-box-watch {
+/* .sale-box-watch {
   padding-bottom: 20px;
-}
+} */
 .sale-big-produkt {
   border: 1px solid rgba(12, 12, 12, 0.05);
   border-radius: 30px;
   max-width: 100%;
-  min-height: 385px;
+  max-height: 385px;
   background-color: #f3f3f3;
   display: flex;
 }
@@ -129,6 +132,10 @@
   height: auto;
   padding: 8px;
 }
+.sale-box-watch {
+  margin-bottom: 20px;
+}
+
 
 @media screen and (min-width: 768px) {
 
@@ -144,29 +151,41 @@
   .sale-box-watch {
     display: flex;
     gap: 20px;
+    margin-bottom: 40px;
   }
   .sale-list {
-    display: block;
+    flex-direction: column;
+        gap: 10px;
+
+    /* display: block; */
+
+    /* margin-bottom: 10px; */
   }
   .sale-item {
     border-radius: 20px;
     width: 132px;
     height: 132px;
     border-radius: 20px;
+    padding: 16px 18px;
   }
-  .sale-item:not(:last-child) {
+  /* .sale-item:not(:last-child) {
     margin-bottom: 10px;
-  }
+  } */
   .sale-small-produkt {
     margin-bottom: 0;
   }
   .sale-small-img {
-    margin: 16px 18px;
+    /* margin: 16px 18px; */
     padding: 0;
+    /* padding: 16px 18px; */
   }
   .sale-big-produkt {
     max-width: 552px;
     min-height: 558px;
+
+    /* min-height: 558px; */
+    height: auto;
+
     display: flex;
     align-items: center;
     justify-content: center;
@@ -225,7 +244,9 @@
   .sale-big-img {
     padding: 80px 50px;
   }
-
+.sale-box-watch {
+  margin-bottom: 0;
+}
   .sale-description-title {
     font-weight: 600;
     font-size: 32px;
