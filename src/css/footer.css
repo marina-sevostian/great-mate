@@ -1,7 +1,8 @@
 .footer {
   margin: 0 auto 20px;
+  max-width: 375px;
+  padding: 0 20px;
 }
-
 .container-footer {
   padding: 40px 28px 28px;
   background-color: #0c0c0c;
@@ -9,13 +10,11 @@
   width: 100%;
   height: 100%;
 }
-
 .section-one-footer {
   display: flex;
   flex-direction: column;
   margin-bottom: 92px;
 }
-
 .footer-logo {
   display: flex;
   font-size: 16px;
@@ -23,7 +22,6 @@
   color: #fbfbfb;
   margin-bottom: 20px;
 }
-
 .block-social {
   display: flex;
 }
@@ -161,10 +159,13 @@
 @media screen and (min-width: 768px) {
   .footer {
     margin: 0 auto 32px;
+    max-width: 100%;
+    padding: 0;
   }
 
   .container-footer {
     max-width: 704px;
+    padding: 40px 40px 28px 40px;
   }
 
   .section-one-footer {
