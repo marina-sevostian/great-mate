@@ -30,6 +30,7 @@
     background-color: #f3f3f3;
 }
 
+
 .text-contact {
     font-weight: 500;
     font-size: 14px;
@@ -45,8 +46,8 @@
     justify-content: flex-start;
     flex-direction: column;
     gap: 18px;
-
 }
+
 
 .contact-input::placeholder {
     font-weight: 400;
@@ -68,6 +69,7 @@
     color: #0c0c0c;
     background-color: transparent;
     outline: transparent;
+    transition: background-color 300ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .user-comment {
@@ -84,6 +86,7 @@
     color: #0c0c0c;
     background-color: transparent;
     outline: transparent;
+    transition: background-color 300ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contact-input:hover {
@@ -117,6 +120,7 @@
     color: #fbfbfb;
     border: none;
     margin-top: 10px;
+    transition: background-color 300ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button-contact:hover,
@@ -134,6 +138,10 @@
 @media screen and (max-width: 374px) {
     .contact-input {
         width: 225px;
+    }
+
+    .card-contact-us {
+        height: auto;
     }
 }
 
@@ -239,7 +247,7 @@
         width: 460px;
         height: 52px;
         outline: transparent;
-        transition: background-color 300ms cubic-bezier(0.4, 0, 0.2, 1);
+
     }
 
     .user-comment {
@@ -247,7 +255,6 @@
         width: 460px;
         min-height: 90px;
         background-color: transparent;
-        transition: background-color 300ms cubic-bezier(0.4, 0, 0.2, 1);
     }
 
 
@@ -255,7 +262,6 @@
         padding: 17px 63px;
         width: 160px;
         height: 52px;
-        transition: background-color 300ms cubic-bezier(0.4, 0, 0.2, 1);
     }
 
     .card-contact-us {
