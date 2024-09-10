@@ -132,22 +132,12 @@
 }
 
 @media screen and (max-width: 374px) {
-    .container {
-        max-width: 374px;
-        padding: 0 20px;
-    }
-
     .contact-input {
         width: 225px;
     }
 }
 
 @media screen and (min-width: 768px) {
-    .container {
-        max-width: 768px;
-        padding: 0 32px;
-    }
-
     .contact-us {
         padding-bottom: 80px;
     }
@@ -210,11 +200,6 @@
 }
 
 @media screen and (min-width: 1280px) {
-    .container {
-        max-width: 1280px;
-        padding: 0 65px;
-    }
-
     .contact-us {
         padding-bottom: 100px;
     }
